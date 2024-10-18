@@ -17,3 +17,5 @@ print(a[0:8])
 
 #EX 08.String
 #Faça um programa que leia um nome completo de uma pessoa e imprima a frequencia de ocorrencia a letra a.
+
+print("Ola mundo")

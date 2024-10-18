@@ -1,0 +1,54 @@
+#nome=input("Digite seu nome")
+#print(nome)
+
+#idade=input('Digite sua idade')
+#print(type(idade))
+
+#salario=int(input('salario ?='))
+#imposto=float(input("Digite o imposto = "))
+
+#sal=float("Digite salario ")
+#print(sal)
+
+#idade1=10
+#idade2=12
+#filho=2
+
+#print('Eu tenho %d filhos, ambos de %d e %d anos' % (filho, idade1,idade2))
+#print('Eu tenho %d filhos, ambos de %d e %d anos' % (2 , 10 , 12))
+#print("Eu tenho %d filhos , ambos de %d e %d anos" % (2 , 10 , 12)) 
+
+#z=1755/111
+#print("%.4F" % z)
+
+#a = "Eduarda"
+#b = "Hisano"
+#print("Prezada " +a+ " "+b+" ."+" Olá!")
+
+#x= input("Digite a idade ")
+
+#print("+" + 10 * "-" + "+")
+#print(("|" + " " * 10 + "|\n")*5, end="")
+#print("+" + 10 * "-" + "+")     
+
+#print("+" + 10 * "_" + ".")
+#print(("|" +" " * 10 + "|\n")*5, end="")
+#print("." + 10 * "-" + ".")     
+
+#print(3*" " + "." + " ")
+#print(" " + 4* "." + " ")
+#print("/" + 4* "_" + "\\")
+#print(("|" "+" 4* + "|\n")*4 , end =" ")
+#print("." + 4* "=" + "=") 
+
+frase = "Triangulo de base igual a  {0} e altura igual a {1} possui area igual a {2}"
+format(3,4,12)
+print(frase)
+
+linguagem= "Python"
+f"programação em {linguagem}"
+print(f"Programação em {linguagem}")
+
+print("Quual é o seu nome?")
+print(nome)
+

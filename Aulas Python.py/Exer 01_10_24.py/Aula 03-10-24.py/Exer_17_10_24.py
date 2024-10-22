@@ -158,7 +158,7 @@ while True:
 while True:
      Estado_civil=input("Estado Civil: ")
 
-     if estado_civi=="S" or "C" or "V" or "D":
+     if Estado_civil=="S" or "C" or "V" or "D":
         print("Valido")
         break
      else:
@@ -166,8 +166,3 @@ while True:
 
 #Break para parar o laço que cria.
 
-
-
-
-
-    

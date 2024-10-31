@@ -19,21 +19,21 @@
 
 # Faça um algoritmo em linguagem Python que o nome, idade,sexo e receba duas notas e calcule a média aritmética e mostre o resultado.
 
-#nome=input("Digite seu nome ")
-#idade=float(input("Digite sua idade "))
-#sexo=input("Qaul o seu sexo? ")
+# nome=input("Digite seu nome ")
+# idade=float(input("Digite sua idade "))
+# sexo=input("Qaul o seu sexo? ")
 
-#nota1= float(input("Digite a sua nota"))
-#nota2=float(input("Digite a sua nota"))
+# nota1= float(input("Digite a sua nota"))
+# nota2=float(input("Digite a sua nota"))
 
-#total=(nota1+nota2)/2
-#print("Média" , total)
+# total=(nota1+nota2)/2
+# print("Média" , total)
 
-#print("Nome" , nome)
-#print("Idade" , idade)
-#print("Sexo" , sexo)
-#print("nota1" , nota1)
-#print("nota2" , nota2)
+# print("Nome" , nome)
+# print("Idade" , idade)
+# print("Sexo" , sexo)
+# print("nota1" , nota1)
+# print("nota2" , nota2)
 
 #(),**,*,/,+,- 
 

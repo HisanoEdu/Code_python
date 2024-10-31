@@ -82,3 +82,5 @@ while True:
 #total de votos em brancos
 
 
+
+

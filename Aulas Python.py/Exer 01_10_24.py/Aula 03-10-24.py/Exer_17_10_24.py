@@ -43,42 +43,42 @@
 #utilizando "While" o menu ficara ativo até que o usuário digite um comando para interromper.Verifique a partir de testes condicionais
 #qual opção desejada,solicite os valores para a operação e efetue o calcule. Imprima o resultado e retorne ao menu principal.
 
-# while True:
+while True:
 
-#     opcao=int(input("Escolha a operação desejada \n1.Multiplicação \n2.Divisão \n3.Adição \n4.Subtração \n5.Sair"))
-#     print(opcao)
-#     if opcao==1:
-#         valor1=int(input("Digite um valor "))
-#         valor2=int(input("Digite um valor "))
-#         a=valor1**valor2
-#         print("Multiplicação" , a)
+    opcao=int(input("Escolha a operação desejada \n1.Multiplicação \n2.Divisão \n3.Adição \n4.Subtração \n5.Sair"))
+    print(opcao)
+    if opcao==1:
+        valor1=int(input("Digite um valor "))
+        valor2=int(input("Digite um valor "))
+        a=valor1**valor2
+        print("Multiplicação" , a)
 
 
-#     if opcao==2:
-#         valor1=int(input("Digite um valor "))
-#         valor2=int(input("Digite um valor "))
-#         b=valor1/valor2
-#         print("Divisão" , b)
+    if opcao==2:
+        valor1=int(input("Digite um valor "))
+        valor2=int(input("Digite um valor "))
+        b=valor1/valor2
+        print("Divisão" , b)
 
-#     if opcao==3:
-#         valor1=int(input("Digite um valor "))
-#         valor2=int(input("Digite um valor "))
-#         c=valor1+valor2
-#         print("Adição" ,c)
+    if opcao==3:
+        valor1=int(input("Digite um valor "))
+        valor2=int(input("Digite um valor "))
+        c=valor1+valor2
+        print("Adição" ,c)
 
-#     if opcao==4:
-#        valor1=int(input("Digite um valor "))
-#        valor2=int(input("Digite um valor "))
-#        d=valor1-valor2
-#        print("Subtração",d)
+    if opcao==4:
+       valor1=int(input("Digite um valor "))
+       valor2=int(input("Digite um valor "))
+       d=valor1-valor2
+       print("Subtração",d)
 
-#     if opcao==5:
-#         print("Sair")
-#         break
-#     else:
-    #     print("Opção invalida")
+    if opcao==5:
+        print("Sair")
+        break
+    else:
+        print("Opção invalida")
     
-    # print ("\n\n")
+    print ("\n\n")
     
 
 #01) Faça um programa que peça uma nota, entre zero e dez.

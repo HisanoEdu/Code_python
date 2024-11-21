@@ -109,10 +109,10 @@ print(s[:3])
 # Tamanho de string.Faça um programa que leia 2 string e 
 #informe o conteúdo delas seguindo do seu comprimento.
 
-#txt=input("Digite o seu nome")
-#texto=input("Digite uma palavra")
-#print(len(txt))
-#print(len(texto))
+txt=input("Digite o seu nome")
+texto=input("Digite uma palavra")
+print(len(txt))
+print(len(texto))
 
 #EX 03 
 #Faça um programa que leia um nome e imprima as 4 primeiras letras do nome.

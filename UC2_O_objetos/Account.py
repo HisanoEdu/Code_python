@@ -1,0 +1,2 @@
+
+from herança import Account

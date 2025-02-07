@@ -23,7 +23,6 @@ def main():
     image_label.setPixmap(pixmap)
     image_label.setAlignment(Qt.AlignCenter)
 
-   
     button = QPushButton('Clique aqui')
     button.clicked.connect(on_button_click) 
 
@@ -41,3 +40,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    

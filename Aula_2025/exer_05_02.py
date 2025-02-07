@@ -11,11 +11,10 @@ class HelloWorldWindow(QMainWindow):
         self.setGeometry(150, 80, 300, 100)  
 
         label = QLabel("Hello world", self)
-        label.setStyleSheet("font-size: 18px; font-weight: bold;")  
-        label.setAlignment(Qt.AlignCenter) 
-        
-        self.setCentralWidget(label)
-        
+        label.setGeometry(50, 20, 200, 60)  
+        label.setStyleSheet("font-size: 18px; font-weight: bold; text-align: center")
+        label.setAlignment(Qt.AlignCenter)  
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
 
@@ -23,5 +22,3 @@ if __name__ == "__main__":
     window.show()
 
     sys.exit(app.exec())
-
-

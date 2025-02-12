@@ -1,4 +1,4 @@
-#Funções no python
+#Funções no python   Programação orientada a objetos.
 
 #São bloco de código
 

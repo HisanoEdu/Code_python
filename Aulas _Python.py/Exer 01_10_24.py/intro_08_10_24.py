@@ -23,22 +23,22 @@
 
 #Python-Operadores relacionais
 
-#x>y e y<x 
-#x-y ou x-=y 
-#x** ou x**=y
-#x=x+y ou x+=y
-#x%y ou x%=y
+# x>y e y<x 
+# x-y ou x-=y 
+# x** ou x**=y
+# x=x+y ou x+=y
+# x%y ou x%=y
 
-#EX: X=0 AND Y=1 "E"
-#X=0 OR Y=1 "OU"
+# EX: X=0 AND Y=1 "E"
+# X=0 OR Y=1 "OU"
 
 #X=1
 #(x>0) and (x<100)
 #Verdadeiro Pois 1 é maior que 0, ao mesmo tempo 1 é menor que 100.
 
-#x=7
-#(x==7) or (x==100)
-#verdadeiro.
+# x=7
+# (x==7) or (x==100)
+# verdadeiro.
 
 #Intentação são blocos definidos usa : em vez {}
 

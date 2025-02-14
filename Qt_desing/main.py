@@ -11,5 +11,4 @@ from PySide6.QtWidgets import (QApplication, QLabel, QLineEdit, QListView,
     QStatusBar, QWidget)
 from TelaDeLogin import Ui_MainWindow
 
-if __name__=="__main__":
-    app
+ 

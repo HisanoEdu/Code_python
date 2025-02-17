@@ -1,5 +1,6 @@
 <RCC>
-  <qresource prefix="icon">
-    <file>wandinha.webp</file>
+  <qresource prefix="icon"/>
+  <qresource prefix="newPrefix">
+    <file>Avengers.jpg</file>
   </qresource>
 </RCC>

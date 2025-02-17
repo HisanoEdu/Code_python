@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>727</width>
     <height>822</height>
    </rect>
   </property>
@@ -315,7 +315,7 @@ font: 22pt &quot;Segoe UI&quot;;</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>727</width>
      <height>22</height>
     </rect>
    </property>
@@ -328,6 +328,8 @@ font: 22pt &quot;Segoe UI&quot;;</string>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="../../../../Downloads/Imagens.qrc"/>
+ </resources>
  <connections/>
 </ui>

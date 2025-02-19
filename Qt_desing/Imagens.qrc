@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="icon"/>
-  <qresource prefix="newPrefix">
-    <file>Avengers.jpg</file>
-  </qresource>
-</RCC>

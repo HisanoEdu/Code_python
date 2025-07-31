@@ -1,0 +1,46 @@
+
+<?php
+
+require "usuario.php";
+
+$objusuario = new usuario();
+
+if (isset($_POST["cadastrar"])) {
+    
+    $nome = $_POST['nome'];
+    $senha = $_POST['senha'];
+
+    $objusuario->nome = $nome;
+    $objusuario->senha = $senha;
+
+    $res = $objusuario->cadastrar();
+
+    if ($res) {
+        echo '<script>alert("Cadastrado com sucesso");</script>';
+    } else {
+        echo '<script>alert("Falha no cadastro");</script>';
+    }
+}
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div>
+
+<form method="POST";>
+<input type="hidden" id="id" name="id">
+<input type="text" id="nome" name="nome">
+<input type="text" id="senha" name="senha">
+<input type="submit" name="cadastrar" id="submitButton">Cadastrar</Button>
+
+
+</body>
+</html>
